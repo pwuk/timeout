@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 const Nav = () => (
   <nav className="topnav">
     <NavLink activeClassName="active" exact to="/">
-      Task One
+      Page One
     </NavLink>
     <NavLink activeClassName="active" to="/page-two">
-      Task Two
+      Page Two
     </NavLink>
   </nav>
 );

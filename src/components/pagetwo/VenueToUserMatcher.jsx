@@ -42,7 +42,7 @@ const VenueToUserMatcher = ({venues, selectedUsers}) => {
                             <b>{venue.name}</b>
                             <ul>
                                 {venue.recommendation.reasons.map(reason => (
-                                    <li>{reason}</li>
+                                    <li key={reason}>{reason}</li>
                                 ))}
                             </ul>
                         </li>
